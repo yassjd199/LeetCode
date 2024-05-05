@@ -9,22 +9,22 @@
  * };
  */
 class Solution {
-public:
-    int getDecimalValue(ListNode* head) {
-        int result=0;
-        int MSB=0;
-        ListNode* backUpHead=head ;
-   
-        while(head->next!=nullptr){
-            MSB++;
-            head=head->next;
+    public:
+        int getDecimalValue(ListNode* head) {
+            int result = 0;
+            int MSB = 0;
+            ListNode* backUpHead = head ;
+
+            while (head->next != nullptr) {
+                MSB++;
+                head = head->next;
+            }
+            while (1) {
+                result += backUpHead->val * (1 << (MSB--));
+                if (backUpHead->next == nullptr) break ;
+                backUpHead = backUpHead->next;
+            }
+            return result ;
+
         }
-        while(1){
-            result+=backUpHead->val*(1<<(MSB--));
-            if(backUpHead->next==nullptr) break ;
-            backUpHead=backUpHead->next;
-        }
-        return result ;
-        
-    }
 };
