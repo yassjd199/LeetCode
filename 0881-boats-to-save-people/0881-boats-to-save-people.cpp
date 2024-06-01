@@ -6,10 +6,6 @@ public:
         int l=0,r=n-1;
         int ans=0;
         while(l<=r){
-            if(l==r){
-                ans++;
-                return ans;
-            }
             if(people[l]+people[r]<=limit) ans++,l++,r--;
             else ans++,r--;
         }
