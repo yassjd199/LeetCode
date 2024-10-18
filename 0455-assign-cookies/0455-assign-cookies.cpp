@@ -5,7 +5,7 @@ public:
         sort(s.begin(),s.end());
         int i=0,j=0;
         for(;i<s.size() && j<g.size();i++){
-            if(s[i]>=g[j]) j++;
+             j+= (s[i]>=g[j]);
         }
         return j ;
         
