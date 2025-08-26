@@ -3,15 +3,15 @@ public:
     int rob(vector<int>& nums) {
         int n =(int)nums.size();
         // vector<vector<int>> dp(n+1,vector<int>(2));
-        vector<int> dp(2);
+        int x=0,y=0;
         for(int i=1;i<=n;i++){
-            int x=max(dp[0],dp[1]);
-            int y = dp[0]+nums[i-1];
-            dp[0]=x;
-            dp[1]=y;
+            int px=max(x,y);
+            int py = x+nums[i-1];
+            x=px;
+            y=py;
         }
 
-        return max(dp[0],dp[1]);
+        return max(x,y);
         
     }
 };
