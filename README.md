@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/yassjd199/LeetCode/tree/master/0062-unique-paths) |
 | [0198-house-robber](https://github.com/yassjd199/LeetCode/tree/master/0198-house-robber) |
 ## Database
 |  |
@@ -19,4 +20,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1415-students-and-examinations](https://github.com/yassjd199/LeetCode/tree/master/1415-students-and-examinations) |
 | [1908-recyclable-and-low-fat-products](https://github.com/yassjd199/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/yassjd199/LeetCode/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
+## Math
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/yassjd199/LeetCode/tree/master/0062-unique-paths) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/yassjd199/LeetCode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
