@@ -5,11 +5,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0198-house-robber](https://github.com/yassjd199/LeetCode/tree/master/0198-house-robber) |
+| [1043-partition-array-for-maximum-sum](https://github.com/yassjd199/LeetCode/tree/master/1043-partition-array-for-maximum-sum) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/yassjd199/LeetCode/tree/master/0062-unique-paths) |
 | [0198-house-robber](https://github.com/yassjd199/LeetCode/tree/master/0198-house-robber) |
+| [1043-partition-array-for-maximum-sum](https://github.com/yassjd199/LeetCode/tree/master/1043-partition-array-for-maximum-sum) |
 ## Database
 |  |
 | ------- |
